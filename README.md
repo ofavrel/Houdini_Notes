@@ -9,7 +9,7 @@
 * [Bullet Soft Constraints](#bullet-soft-constraints)
 * [Wrangling Constraints](#wrangling-constraints)
 * [Glue Constraint Relationship](#glue-constraint-relationship)
-* [Reading arrays](#reading-arrays)
+* [Concave to Convex](#concave-to-convex)
 * [Arrays](#arrays)
 * [Arrays and strings example](#arrays-and-strings-example)
 * [Reading and writing Matrices](#reading-and-writing-matrices)
@@ -63,3 +63,5 @@ if (f@torque > chf("max_torque"))
 -The **Propagation Iteration** Parameter control how far the **impact** propagates.
 Its by default to -1 which mean use the default of 1. If this value is set to something different than -1 it will override any default or detail attributes created in Sops.\
 Since H17, it can be set as a Prim attribute as **propagationiterations** and can vary by primitives._
+
+#### Concave to Convex
