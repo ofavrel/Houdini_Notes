@@ -7,7 +7,7 @@
 ## Topics
 ### RBD
 * [Bullet Soft Constraints](#bullet-soft-constraints)
-* [Reading attributes](#reading-attributes)
+* [Wrangling Constraints](#wrangling-constraints)
 * [Exporting attributes](#exporting-attributes)
 * [Reading arrays](#reading-arrays)
 * [Arrays](#arrays)
@@ -29,4 +29,12 @@
 
 #### Bullet Soft Constraints
 _The Bullet Soft Constraint is a New Type of constraint that was Shipped with Houdini 17.
-It is acting like a spring constraint by applying a force that is proportional to the distance between two anchors points. The big difference is that the **Stiffness** and **Damping** are mass independant. So modifying the mass of the objects shouldn't affect too much the Simulation_
+It is acting like a spring constraint by applying a force that is proportional to the distance between two anchors points.\
+The big difference is that the **Stiffness** and **Damping** are mass independant. So modifying the mass of the objects shouldn't affect too much the Simulation.\
+A larger **Stiffness** value reduce the Strechiness  until at some point it aproximate what a Pin Constraint would do.\
+If the stiffness does'nt get you stiff engouh result you might need to increase the **Constraint Iteration**_
+
+<br>
+
+#### Wrangling Constraints
+_You sometime want to do some Vex Code on the Constraints. Use can use a Geometry wrangle running over **Primitives** and change the name of the "Geometry parameter" to  "ConstraintGeometry"._
