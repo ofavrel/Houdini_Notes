@@ -42,7 +42,7 @@ If the **Stiffness** doesn't get you stiff engouh result you might need to incre
 <br>
 
 #### Wrangling Constraints
--_You sometime want to do some Vex Code on the Constraints. You can use a Geometry wrangle running over **Primitives** and change the name of the "Geometry parameter" to  **ConstraintGeometry**.\
+_-You sometime want to do some Vex Code on the Constraints. You can use a Geometry wrangle running over **Primitives** and change the name of the "Geometry parameter" to  **ConstraintGeometry**.\
 <br>
 -Deleting Constraints:_
 ```C
@@ -56,10 +56,10 @@ if (f@torque > chf("max_torque"))
 
 -_The **Glue Constraints** get deleted if the **impact** primitive attribute of the pieces is higher that the Constraint **Strength** primitive attribute/parameter.\
 <br>
--The **Half-life** parameter kicks in if the **impact** wasn't strong enough to break the **Glue Constraints**. It's the rate at which the **impact** Strength Decay.
+-The **Half-life** parameter kicks in if the **impact** wasn't strong enough to break the **Glue Constraints**. It's the rate at which the **impact** Strength Decay.\
 <br>
--The **Propagation Rate** is how fast the **impact** propagate throught the neighbours pieces
+-The **Propagation Rate** is how fast the **impact** propagate throught the neighbours pieces.\
 <br>
 -The **Propagation Iteration** Parameter control how far the **impact** propagates.
 Its by default to -1 which mean use the default of 1. If this value is set to something different than -1 it will override any default or detail attributes created in Sops.\
-Since H17, it can be set as a Prim attribute as **propagationiterations** and can vary by primitives.
+Since H17, it can be set as a Prim attribute as **propagationiterations** and can vary by primitives._
