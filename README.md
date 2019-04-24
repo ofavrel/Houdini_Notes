@@ -28,14 +28,16 @@
 
 
 #### Bullet Soft Constraints
--_The Bullet Soft Constraint is a New Type of constraint that was Shipped with Houdini 17.
-It is acting like a spring constraint by applying a force that is proportional to the distance between two anchors points.\
+-_The Bullet **Soft Constraint** is a New Type of constraint that was Shipped with Houdini 17.
+It is acting like a **Spring constraint** by applying a force that is proportional to the distance between two anchors points.\
 The big difference is that the **Stiffness** and **Damping** are mass independant. So modifying the mass of the objects shouldn't affect too much the Simulation.\
 <br>
--Shouldn't be able to blow up and should be very stable. But a trade off is made comparing to Spring Constraint were some artifical damping can happen with a low number of Substeps even if **Damping** is set to 0.\
+-Shouldn't be able to blow up and should be very stable. But a trade off is made comparing to *Spring Constraint* were some artifical damping can happen with a low number of Substeps even if **Damping** is set to 0.\
 <br>
--A larger **Stiffness** value reduce the Stretchiness  until at some point it aproximate what a Pin Constraint would do.\
-If the stiffness doesn'nt get you stiff engouh result you might need to increase the **Constraint Iteration**_
+-Use **Soft Constraint** instead of **Spring Constraint** in any scenario except if you need a lot of oscillation adn you can't afford craing up the Substeps.
+<br>
+-A larger **Stiffness** value reduce the Stretchiness  until at some point it aproximate what a **Pin Constraint** would do.\
+If the **Stiffness** doesn'nt get you stiff engouh result you might need to increase the **Constraint Iterations**_
 
 <br>
 
