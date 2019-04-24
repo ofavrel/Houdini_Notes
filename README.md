@@ -8,7 +8,7 @@
 ### RBD
 * [Bullet Soft Constraints](#bullet-soft-constraints)
 * [Wrangling Constraints](#wrangling-constraints)
-* [Exporting attributes](#exporting-attributes)
+* [Glue Constraint Relationship](#glue-constraint-relationship)
 * [Reading arrays](#reading-arrays)
 * [Arrays](#arrays)
 * [Arrays and strings example](#arrays-and-strings-example)
@@ -34,10 +34,10 @@ The big difference is that the **Stiffness** and **Damping** are mass independan
 <br>
 -Shouldn't be able to blow up and should be very stable. But a trade off is made comparing to *Spring Constraint* were some artifical damping can happen with a low number of Substeps even if **Damping** is set to 0.\
 <br>
--Use **Soft Constraint** instead of **Spring Constraint** in any scenario except if you need a lot of oscillation adn you can't afford craing up the Substeps.
+-Use **Soft Constraint** instead of **Spring Constraint** in any scenario except if you need a lot of oscillation and you can't afford cranking up the Substeps.
 <br>
--A larger **Stiffness** value reduce the Stretchiness  until at some point it aproximate what a **Pin Constraint** would do.\
-If the **Stiffness** doesn'nt get you stiff engouh result you might need to increase the **Constraint Iterations**_
+-A larger **Stiffness** value reduce the Stretchiness  until at some point it approximate what a **Pin Constraint** would do.\
+If the **Stiffness** doesn't get you stiff engouh result you might need to increase the **Constraint Iterations**_
 
 <br>
 
@@ -51,3 +51,5 @@ if (f@torque > chf("max_torque"))
     removeprim(0, @primnum, 1);
 }
 ```
+
+#### Glue Constraint Relationship
