@@ -28,6 +28,5 @@
 
 
 #### Bullet Soft Constraints
-*The Bullet Soft Constraint is a New Type of constraint that was Shipped with Houdini 17.
-It is acting like a spring constraint by applying a force that is proportional to the distance between two anchors points. The big difference is that the **Stiffness** and **Damping** are mass independant. So modifying the mass of the objects shouldn't affect too much the Simulation *
-<br>
+_The Bullet Soft Constraint is a New Type of constraint that was Shipped with Houdini 17.
+It is acting like a spring constraint by applying a force that is proportional to the distance between two anchors points. The big difference is that the **Stiffness** and **Damping** are mass independant. So modifying the mass of the objects shouldn't affect too much the Simulation_
