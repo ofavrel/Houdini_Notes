@@ -32,10 +32,18 @@
 It is acting like a spring constraint by applying a force that is proportional to the distance between two anchors points.\
 The big difference is that the **Stiffness** and **Damping** are mass independant. So modifying the mass of the objects shouldn't affect too much the Simulation.\
 <br>
--A larger **Stiffness** value reduce the Strechiness  until at some point it aproximate what a Pin Constraint would do.\
+-A larger **Stiffness** value reduce the Stretchiness  until at some point it aproximate what a Pin Constraint would do.\
 If the stiffness doesn'nt get you stiff engouh result you might need to increase the **Constraint Iteration**_
 
 <br>
 
 #### Wrangling Constraints
--_You sometime want to do some Vex Code on the Constraints. You can use a Geometry wrangle running over **Primitives** and change the name of the "Geometry parameter" to  **ConstraintGeometry**._
+-_You sometime want to do some Vex Code on the Constraints. You can use a Geometry wrangle running over **Primitives** and change the name of the "Geometry parameter" to  **ConstraintGeometry**.\
+<br>
+-Deleting Constraints:
+```C
+if (f@torque > chf("max_torque"))
+{
+    removeprim(0, @primnum, 1);
+}
+```
