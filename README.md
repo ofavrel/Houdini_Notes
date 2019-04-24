@@ -3,3 +3,19 @@
 <p align="right"><small><sup>by Favrel Orson</sup></small></p>
 
 <br>
+
+### Topics
+* [Rigid Bodies](#rbd)
+
+<br>
+
+### RBD
+
+#### Soft Constraints
+```C
+/*
+multi-line comments can be typed
+using this syntax
+*/
+```
+<br>
