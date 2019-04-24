@@ -6,7 +6,7 @@
 
 ## Topics
 ### RBD
-* [Bullet Soft Constraints](#bullet-soft-constraint)
+* [Bullet Soft Constraints](#bullet-soft-constraints)
 * [Reading attributes](#reading-attributes)
 * [Exporting attributes](#exporting-attributes)
 * [Reading arrays](#reading-arrays)
