@@ -10,20 +10,11 @@
 * [Wrangling Constraints](#wrangling-constraints)
 * [Glue Constraint Relationship](#glue-constraint-relationship)
 * [Concave to Convex](#concave-to-convex)
-* [Arrays](#arrays)
-* [Arrays and strings example](#arrays-and-strings-example)
-* [Reading and writing Matrices](#reading-and-writing-matrices)
-* [Checking for attributes](#checking-for-attributes)
-* [Automatic attribute creation](#automatic-attribute-creation)
-* [Getting transformation from OBJs](#getting-transformation-from-objs)
-* [Intrinsics](#intrinsics)
-* [VDB intrinsics](#vdb-intrinsics)
-* [Volumes](#volumes)
-* [VOPs / Using Snippets](#vops--using-snippets)
-* [VOPs / Using Inline Code](#vops--using-inline-code)
-* [DOPs / Volumes workflow](#dops--volumes-workflow)
-* [DOPs / Gas Field Wrangle](#dops--gas-field-wrangle)
-<br>
+
+### SOPS
+* [Attribute Promote](#attribute-promote)
+* [Measure](#measure)
+
 
 
 
@@ -76,3 +67,9 @@ _Three Approach can be taken while trying to simulate Concave shapes with Bullet
 
 ##### Convex Decomposition
 -_Since H17 we can use the **Convex Decomposition** Node. Only one slider is needed to configure the **Concavity tolerance**. You can Also use a piece Attribute to do this operation per piece (After a voronoi Fracture for exemple. This node is very fast and will only operate on Geo or pieces that are not already Convex._
+
+### Attribute Promote
+-_Since H17 the **Attribute Promote** node got a Piece Attribute Param. This let's you do promotion per pieces so that you can avoid looping over each pieces when doing promotion._
+
+### Measure 
+_-The **Measure Sop** got a lot of new options since H17.5. You can now do Measure per piece calculation (ex: Compare the volume of each Chunk in a fracture)
