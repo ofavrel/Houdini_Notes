@@ -65,3 +65,11 @@ Its by default to -1 which mean use the default of 1. If this value is set to so
 Since H17, it can be set as a Prim attribute as **propagationiterations** and can vary by primitives._
 
 #### Concave to Convex
+
+_Three Approach can be taken while trying to simulate Concave shapes with Bullet Solver._
+
+##### Concave
+-_Set the Geometry Representation Parameter to "Concave". The downside is that performance are pretty low. There's no Notion of Inside and Outside and that can cause issues with fast moving object that goes traverse and object from one frame to the other. So object can get stuck inside other pieces._\
+
+##### Concave
+-_Set the Geometry Representation Parameter to "Concave". The downside is that performance are pretty low. There's no Notion of Inside and Outside and that can cause issues with fast moving object that goes traverse and object from one frame to the other. So object can get stuck inside other pieces.
