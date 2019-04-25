@@ -69,7 +69,10 @@ Since H17, it can be set as a Prim attribute as **propagationiterations** and ca
 _Three Approach can be taken while trying to simulate Concave shapes with Bullet Solver._
 
 ##### Concave
--_Set the Geometry Representation Parameter to "Concave". The downside is that performance are pretty low. There's no Notion of Inside and Outside and that can cause issues with fast moving object that goes traverse and object from one frame to the other. So object can get stuck inside other pieces._\
+-_Set the Geometry Representation Parameter to "Concave". The downside is that performance are pretty low. There's no Notion of Inside and Outside and that can cause issues with fast moving object that goes traverse and object from one frame to the other. So object can get stuck inside other pieces._
 
-##### Concave
--_Set the Geometry Representation Parameter to "Concave". The downside is that performance are pretty low. There's no Notion of Inside and Outside and that can cause issues with fast moving object that goes traverse and object from one frame to the other. So object can get stuck inside other pieces.
+##### VDB to Spheres
+-_Convert the Geometry pieces to **VDB SDF** and then use the **VdbtoSphere** Node. Each Pieces will tehn be Filled with Spheres. Spheres are really Fast to simulate. You need to tweak the **Vdbtosphere** node params and the Geo to SDF as settings can be different depending on the scale of the object and it's configuration._
+
+##### Convex Decomposition
+-_Since H17 we can use the **Convex Decomposition** Node. Only one slider is needed to configure the **Concavity tolerance**. You can Also use a piece Attribute to do this operation per piece (After a voronoi Fracture for exemple. This node is very fast and will only operate on Geo or pieces that are not already Convex._
