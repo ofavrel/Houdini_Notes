@@ -82,5 +82,5 @@ _Three Approach can be taken while trying to simulate Concave shapes with Bullet
 -_The **Measure Sop** got a lot of new options since H17.5. You can now do Measure per piece calculation (ex: Compare the volume of each Chunk in a fracture)
 
 ## TIPS
-#### Change Nodes Color/Shape
+#### Change Nodes Color / Shape
 -_Select a Type of Node and just control Click on the desired color or Shape in the appropriate menue (C or Z). That should change the color and/or Shape of all those type of Node. Note that Future Nodes created will keep this Shape/color.
