@@ -37,7 +37,7 @@ The big difference is that the **Stiffness** and **Damping** are mass independan
 If the **Stiffness** doesn't get you stiff engouh result you might need to increase the **Constraint Iterations**_
 
 <br>
-##
+
 #### Wrangling Constraints
 _-You sometime want to do some Vex Code on the Constraints. You can use a Geometry wrangle running over **Primitives** and change the name of the "Geometry parameter" to  **ConstraintGeometry**.\
 <br>
