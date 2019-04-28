@@ -83,8 +83,9 @@ _Three Approach can be taken while trying to simulate Concave shapes with Bullet
 
 ## VOLUMES
 #### Basic DOP Workflow
--_Here are the Bare Minimum to make a Smoke Simulation:\
-    -A **Solver** is needed, as it's the "engine" node that will make the calculation. We can take the **Pyro Solver** that is        the **Smoke Solver** on steroïds.
+_Here are the Bare Minimum to make a Smoke Simulation:\
+<br>
+    -A **Solver** is needed, as it's the "engine" node that will make the calculation. We can take the **Pyro Solver** that is        the **Smoke Solver** on steroïds.\
     -A **Container** is here to Store the Datas. In case of a Smoke/Pyro Sims we're using a **Smoke object** node. For **Flip Fluid** it would be a **Fluid Object**, for Particles Sim a **Pop object** etc..._
     
 
