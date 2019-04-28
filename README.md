@@ -1,5 +1,5 @@
 # Houdini Memo
-## A collection of small snippets notes and examples about Houdini organized by Context that are hopefully here so that I don't Keep forgetting about them 
+## A collection of small snippets, notes and examples about Houdini organized by Context that are here so that I hopefully don't Keep forgetting about them 
 <p align="right"><small><sup>by Favrel Orson</sup></small></p>
 
 <br>
@@ -14,6 +14,12 @@
 ### SOPS
 * [Attribute Promote](#attribute-promote)
 * [Measure](#measure)
+
+### Volumes
+* [Attribute Promote](#attribute-promote)
+
+### Tips
+* [Change Nodes Color/Shape](#change-nodes-color/shape)
 
 
 
@@ -73,3 +79,7 @@ _Three Approach can be taken while trying to simulate Concave shapes with Bullet
 
 #### Measure 
 -_The **Measure Sop** got a lot of new options since H17.5. You can now do Measure per piece calculation (ex: Compare the volume of each Chunk in a fracture)
+
+
+#### Change Nodes Color/Shape
+-_Select a Type of Node and just control Click on the desired color or Shape in the appropriate menue (C or Z). That should change the color and/or Shape of all those type of Node. Note that Future Nodes created will keep this Shape/color.
