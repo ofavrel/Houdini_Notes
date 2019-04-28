@@ -19,7 +19,7 @@
 * [Attribute Promote](#attribute-promote)
 
 ### Tips
-* [Change Nodes Color/Shape](#change-nodes-color/shape)
+* [Change Nodes Color/Shape](#change-nodes-color-/-shape)
 
 
 
