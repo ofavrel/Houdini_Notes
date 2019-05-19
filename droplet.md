@@ -65,6 +65,8 @@
     -https://www.sidefx.com/forum/topic/34136/
     <br>
     -https://vimeo.com/210226436
+    <br>
+    -Detangle Sop
     </ul>
 
 
