@@ -9,6 +9,7 @@
 ### Droplet Meshes
 * [Creation des meshes de Droplet](#Creation-des-meshes-de-Droplet)
 * [Tileable Points](#tileable-points)
+* [Fix Overlapping Droplet](#fix-overlapping-droplet)
 
 
 ### Creation des meshes de Droplet:
@@ -41,10 +42,17 @@
     -Delete the Points Outside The Txt Grid Size with a Small Margin_\
     </ul>
 **References**:\
-    <ul>-https://richardlord.tumblr.com/page/2\
-    -https://www.sidefx.com/tutorials/game-tools-mesh-tiler/\
+    <ul>-https://richardlord.tumblr.com/page/2
+    <br>
+    -https://www.sidefx.com/tutorials/game-tools-mesh-tiler/
     </ul>
 
-
+### Fix Overlapping Droplet:
+ 
+**Base**:\
+    <ul>-_Scatter Pts on Txt Grid Size\
+    -Randomize  Red Colors (to be used in later in Shader)\
+    -Create N and Randomize_
+    </ul>
 
 
