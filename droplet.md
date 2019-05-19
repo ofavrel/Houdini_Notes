@@ -11,6 +11,7 @@
 * [Tileable Points](#tileable-points)
 * [Fix Overlapping Droplet](#fix-overlapping-droplet)
 * [Copy Random Droplets on Tileable Target Points](#copy-random-droplets-on-tileable-target-points)
+* [Baking Textures](#baking-textures)
 
 
 ### Creation des meshes de Droplet:
@@ -77,7 +78,7 @@
     <ul>-_For-Each Pts Copy Random Variation\
     -Spare inputs references\
     -Compiled Blocks
-    -Divide it by two and use it as Pscale_
+    -Pack Depth Attributes into Cd.z
     </ul>
 **References**:\
     <ul>-https://www.sidefx.com/docs/houdini/copy/copytopoints.html#foreach
@@ -88,3 +89,17 @@
     <br>
     -https://vimeo.com/213127548
     </ul>
+    <br>
+### Baking Textures:
+ 
+**Base**:\
+    <ul>-_Create A Low Poly Plane with Uvs\
+    -Bake The Cd adn Normals with Simple Baker\
+    </ul>
+
+**References**:\
+    <ul>-https://www.sidefx.com/tutorials/games-tools-simple-baker/
+    <br>
+    -New :https://www.sidefx.com/tutorials/game-tools-maps-baker/
+    </ul>
+    <br>
