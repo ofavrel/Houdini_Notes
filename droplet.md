@@ -52,7 +52,7 @@
 **Base**:\
     <ul>-_Get the Nearest point of Each Points\
     -Create a Line and Calculate the Distance\
-    -Promote the distance Attribute to the Point (Min)\_
+    -Promote the distance Attribute to the Point (Min)_<br>
     -Divide it by two and use it as Pscale_
     </ul>
 
