@@ -4,14 +4,13 @@
 
 <br>
 
-## Topics
-
-### Droplet Meshes
+## Topics 
 * [Creation des meshes de Droplet](#Creation-des-meshes-de-Droplet)
 * [Tileable Points](#tileable-points)
 * [Fix Overlapping Droplet](#fix-overlapping-droplet)
 * [Copy Random Droplets on Tileable Target Points](#copy-random-droplets-on-tileable-target-points)
 * [Baking Textures](#baking-textures)
+* [Preview Shader Animation and Tilling](#preview-shader-animation-and-tilling)
 
 
 ### Creation des meshes de Droplet:
@@ -103,3 +102,13 @@
     -New :https://www.sidefx.com/tutorials/game-tools-maps-baker/
     </ul>
     <br>
+
+
+### Preview Shader Animation and Tilling:
+ 
+**Base**:\
+    <ul>-_Import Files in COPS\
+    -Tile node\
+    -Animate Alpha Throught VopCop\
+    -Animate Normal Throught VopCop\
+    </ul>
