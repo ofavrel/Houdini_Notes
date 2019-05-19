@@ -36,7 +36,10 @@
     -Randomize  Red Colors (to be used in later in Shader)\
     -Create N and Randomize_
     </ul>
-
+**Tile it**:\
+    <ul>-_Duplicate it 9 time on a grid Fashion\
+    -Delete the Points Outside The Txt Grid Size with a Small Margin_\
+    </ul>
 
 
 
