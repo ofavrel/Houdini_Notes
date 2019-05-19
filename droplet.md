@@ -29,14 +29,13 @@
     <ul>-
     _Bounding Box based Depth_\
     </ul>
- ### Tileable Points:
+### Tileable Points:
  
 **Base**:\
-    <ul>-
-    _Scatter Pts on Txt Grid Size\
-    -Randomize Colors\
-    -Variation_
-    </ul>\
+    <ul>-_Scatter Pts on Txt Grid Size\
+    -Randomize  Red Colors (to be used in later in Shader)\
+    -Create N and Randomize_
+    </ul>
 
 
 
