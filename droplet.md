@@ -52,8 +52,19 @@
 **Base**:\
     <ul>-_Get the Nearest point of Each Points\
     -Create a Line and Calculate the Distance\
-    -Promote the distance Attribute to the Point (Min)_<br>
+    -Promote the distance Attribute to the Point (Min)<br>
     -Divide it by two and use it as Pscale_
+    </ul>
+**References**:\
+    <ul>-http://probiner.xyz/2018/07/09/houdini-non-intersecting-spheres-pscale-fitting/
+    <br>
+    -https://richardlord.tumblr.com/page/2
+    <br>
+    -https://forums.odforce.net/topic/19771-tesselating-spheres/
+    <br>
+    -https://www.sidefx.com/forum/topic/34136/
+    <br>
+    -https://vimeo.com/210226436
     </ul>
 
 
