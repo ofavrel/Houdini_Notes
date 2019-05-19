@@ -40,8 +40,11 @@
     <ul>-_Duplicate it 9 time on a grid Fashion\
     -Delete the Points Outside The Txt Grid Size with a Small Margin_\
     </ul>
+**References**:\
+    <ul>-https://richardlord.tumblr.com/page/2\
+    -https://www.sidefx.com/tutorials/game-tools-mesh-tiler/\
+    </ul>
 
 
 
 
-https://richardlord.tumblr.com/page/2
