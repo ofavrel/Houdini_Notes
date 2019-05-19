@@ -35,6 +35,7 @@
 **Base**:\
     <ul>-_Scatter Pts on Txt Grid Size\
     -Randomize  Red Colors (to be used in later in Shader)\
+    -Create a Copy Attribute\
     -Create N and Randomize_
     </ul>
 **Tile it**:\
@@ -69,4 +70,20 @@
     -Detangle Sop
     </ul>
 
-
+### Copy Random Droplets on Tileable Target Points:
+ 
+**Base**:\
+    <ul>-_For-Each Pts Copy Random Variation\
+    -Spare inputs references\
+    -Compiled Blocks
+    -Divide it by two and use it as Pscale_
+    </ul>
+**References**:\
+    <ul>-https://www.sidefx.com/docs/houdini/copy/copytopoints.html#foreach
+    <br>
+    -https://www.toadstorm.com/blog/?p=493
+    <br>
+    -https://vimeo.com/222881605
+    <br>
+    -https://vimeo.com/213127548
+    </ul>
