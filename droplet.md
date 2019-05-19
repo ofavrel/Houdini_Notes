@@ -77,7 +77,7 @@
     <ul>-_For-Each Pts Copy Random Variation\
     -Spare inputs references\
     -Compiled Blocks
-    -Pack Depth Attributes into Cd.z
+    -Pack Depth Attributes into Cd.z_
     </ul>
 **References**:\
     <ul>-https://www.sidefx.com/docs/houdini/copy/copytopoints.html#foreach
@@ -93,7 +93,7 @@
  
 **Base**:\
     <ul>-_Create A Low Poly Plane with Uvs\
-    -Bake The Cd adn Normals with Simple Baker\
+    -Bake The Cd adn Normals with Simple Baker_\
     </ul>
 
 **References**:\
@@ -110,5 +110,5 @@
     <ul>-_Import Files in COPS\
     -Tile node\
     -Animate Alpha Throught VopCop\
-    -Animate Normal Throught VopCop\
+    -Animate Normal Throught VopCop_\
     </ul>
