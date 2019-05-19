@@ -50,9 +50,10 @@
 ### Fix Overlapping Droplet:
  
 **Base**:\
-    <ul>-_Scatter Pts on Txt Grid Size\
-    -Randomize  Red Colors (to be used in later in Shader)\
-    -Create N and Randomize_
+    <ul>-_Get the Nearest point of Each Points\
+    -Create a Line and Calculate the Distance\
+    -Promote the distance Attribute to the Point (Min)\_
+    -Divide it by two and us it as Pscale
     </ul>
 
 
