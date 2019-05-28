@@ -88,6 +88,8 @@
     <br>
     -https://vimeo.com/213127548
     </ul>
+    http://cgallin.blogspot.com/2018/11/how-to-copy.html
+    </ul>
     <br>
 ### Baking Textures:
  
